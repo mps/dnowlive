@@ -12,6 +12,7 @@ body {
 }
 
 section.header-content{
+	margin-top: 15px;
 }
 
 section.video-content{
@@ -36,13 +37,13 @@ section.replay-content{
 }
 
 div#clock{
+	margin-top: 5px;
 	background: #000;
-	height:88px;
-	margin-top: 15px;
+	height:75px;
 }
 
 div.clock-content{
-	padding:20px;
+	padding:10px;
 }
 
 div.clock-content span{
@@ -50,4 +51,9 @@ div.clock-content span{
 	margin-right:30px;
 	font-size: 50px;
 	font-weight: bold;
+}
+
+div.clock-content img.live{
+	height:30px;
+	margin-left:15px;
 }
