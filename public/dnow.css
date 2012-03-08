@@ -19,9 +19,10 @@ section.video-content{
 }
 
 div.video {
-	background: #000 url('images/player.jpg') top center fixed no-repeat;
-	padding: 5px;
-	margin-top:5px;
+	background: #000 url('images/player.png') no-repeat;
+}
+
+div#mediaplayer_wrapper{
 }
 
 div.schedule img{
@@ -32,4 +33,21 @@ div.schedule img{
 
 section.replay-content{
 	margin-top:20px;
+}
+
+div#clock{
+	background: #000;
+	height:88px;
+	margin-top: 15px;
+}
+
+div.clock-content{
+	padding:20px;
+}
+
+div.clock-content span{
+	margin-left:30px;
+	margin-right:30px;
+	font-size: 50px;
+	font-weight: bold;
 }
