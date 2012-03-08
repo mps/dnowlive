@@ -11,8 +11,25 @@ body {
   zoom: 1;
 }
 
-.video{
+section.header-content{
 }
 
-.schedule{
+section.video-content{
+	margin-top:20px;
+}
+
+div.video {
+	background: #000 url('images/player.jpg') top center fixed no-repeat;
+	padding: 5px;
+	margin-top:5px;
+}
+
+div.schedule img{
+	margin-top:5px;
+	margin-left: 70px;
+	height:370px;
+}
+
+section.replay-content{
+	margin-top:20px;
 }

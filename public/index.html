@@ -12,46 +12,48 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <div class="span12">
-        <div class="row">
-          <div class="logo span4">
-            <a href="/"><img src="/images/logo.png" /></a>
-          </div>
-          <div class="span8">
-          </div>
+    <section class="header-content">
+      <div class="row">
+        <div class="logo span4">
+          <a href="/"><img src="/images/logo.png" /></a>
         </div>
-        <div class="row">
-          <div class="video span8">
-            <div id="mediaplayer">
-            </div>
-          </div>
-          <div class="schedule span4">
-            <img src="/images/schedule.png" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="span3">
-            <img src="/images/replay1.png" />
-          </div>
-          <div class="span3">
-            <img src="/images/replay2.png" />
-          </div>
-          <div class="span3">
-            <img src="/images/replay3.png" />
-          </div>
-          <div class="span3">
-            <img src="/images/replay4.png" />
-          </div>
+        <div class="span8">
         </div>
       </div>
-    </div>
+    </section>
+    <section class="video-content">
+      <div class="row">
+        <div class="video span8">
+          <div id="mediaplayer">
+          </div>
+        </div>
+        <div class="schedule span3">
+          <img src="/images/schedule.png" />
+        </div>
+      </div>
+    </section>
+    <section class="replay-content">
+      <div class="row">
+        <div class="span3">
+          <img src="/images/replay1coming.png" />
+        </div>
+        <div class="span3">
+          <img src="/images/replay2coming.png" />
+        </div>
+        <div class="span3">
+          <img src="/images/replay3coming.png" />
+        </div>
+        <div class="span3">
+          <img src="/images/replay4coming.png" />
+        </div>
+      </div>
+    </section>
   </div>
   <script type="text/javascript">
     jwplayer('mediaplayer').setup({
       'id': 'playerID',
       'skin': '/minima.zip',
-      'autostart': 'true',
+      'autostart': 'false',
       'width': '640',
       'height': '360',
       'provider': 'rtmp',
