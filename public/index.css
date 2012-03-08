@@ -1,5 +1,5 @@
 body, html {
-  background-color: #FFF;
+  background-color: #333;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 
 #header img {
   width: 500px;
-  margin: 4% auto 0 auto;
+  padding: 30px 0 0;
 }
 
 #container {
@@ -100,40 +100,4 @@ h1 a {
 
 #footer a {
   color: #828A91;
-}
-
-form {
-  margin: 0px;
-}
-
-form input {
-  border: 1px solid #aaaaaa;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 0.2em;
-  padding: 5px;
-  font-size: 150%;
-}
-
-form input#email {
-  width: 12em;
-}
-
-form input[type=submit] {
-  border: 1px solid #aaa;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #aaa), color-stop(100%, #aaa));
-  background-image: -moz-linear-gradient(top, #aaa 0%, #aaa 100%);
-  background-image: linear-gradient(top, #aaa 0%, #aaa 100%);
-  text-shadow: #999999 0px -1px 1px;
-  color: white;
-}
-
-form input[type=submit]:active {
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #c5250f), color-stop(100%, #7e170a));
-  background-image: -moz-linear-gradient(top, #c5250f 0%, #7e170a 100%);
-  background-image: linear-gradient(top, #c5250f 0%, #7e170a 100%);
-}
-
-form .placeholder {
-  color: #888;
 }
