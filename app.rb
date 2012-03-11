@@ -10,12 +10,12 @@ get '/' do
   File.read(File.join('public', 'index.html'))
 end
 
-get '/session/one' do
-  File.read(File.join('public', 'one.html'))
-end
-
 get '/sessions' do
   File.read(File.join('public', 'sessions.html'))
+end
+
+get '/session/one' do
+  File.read(File.join('public', 'one.html'))
 end
 
 get '/session/two' do
