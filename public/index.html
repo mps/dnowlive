@@ -90,7 +90,7 @@
   </script>
   <script type="text/javascript">
     $(function() {
-      $('div#clock').countdown("2012/03/16 18:30:00", function(event) {
+      $('div#clock').countdown("2012/03/16 17:00:00", function(event) {
         $this = $(this);
 
         // Calculate the time left
@@ -116,7 +116,7 @@
             $this.find('span#'+event.type).html(timeLeft[0]);
             break;
           case "finished":
-            $this.fadeTo('slow', .5);
+            $this.fadeTo('slow', 0);
             break;
         }
       });
