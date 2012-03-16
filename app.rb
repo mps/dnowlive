@@ -7,7 +7,7 @@ configure do
 end
 
 get '/' do
-  File.read(File.join('public', 'index.html'))
+  File.read(File.join('public', 'index-offline.html'))
 end
 
 get '/sessions' do
