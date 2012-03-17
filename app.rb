@@ -18,6 +18,10 @@ get '/sessions/one' do
   File.read(File.join('public', 'one.html'))
 end
 
+get '/sessions/two' do
+  File.read(File.join('public', 'two.html'))
+end
+
 not_found do
   'The item you are looking for was not found :('
 end
