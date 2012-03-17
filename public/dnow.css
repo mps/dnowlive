@@ -36,6 +36,10 @@ section.replay-content{
 	margin-top:20px;
 }
 
+section.replay-content a{
+	cursor:hand;
+}
+
 div#clock{
 	margin-top: 5px;
 	background: #000;
