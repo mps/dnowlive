@@ -32,6 +32,10 @@ div.schedule img{
 	height:370px;
 }
 
+div.schedule iframe {
+	margin-left: 75px;
+}
+
 section.replay-content{
 	margin-top:20px;
 }
