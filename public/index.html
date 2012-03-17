@@ -45,7 +45,7 @@
     <section class="replay-content">
       <div class="row">
         <div class="span3">
-          <img alt="Watch Replay of Session One" src="/images/replay1coming.png" />
+          <img alt="Watch Replay of Session One" src="/images/replay1.png" />
         </div>
         <div class="span3">
           <img alt="Watch Replay of Session Two" src="/images/replay2coming.png" />
@@ -90,7 +90,7 @@
   </script>
   <script type="text/javascript">
     $(function() {
-      $('div#clock').countdown("2012/03/16 17:00:00", function(event) {
+      $('div#clock').countdown("2012/03/17 10:30:00", function(event) {
         $this = $(this);
 
         // Calculate the time left
@@ -119,6 +119,30 @@
             $this.fadeTo('slow', 0);
             break;
         }
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(function() {
+      $('div#watch1').click(function(e) {
+        jwplayer('mediaplayer').setup({
+          'id': 'playerID',
+          'autostart': 'true',
+          'width': '640',
+          'height': '480',
+          'file': 'https://s3.amazonaws.com/streaming.chestnutmountain.com/DNOW_Session_1+-1.mov',
+          'controlbar': 'bottom',
+          'modes': [
+              {type: 'flash', src: '/jwplayer/player.swf'},
+              {
+                type: 'html5',
+                config: {
+                 'file': 'https://s3.amazonaws.com/streaming.chestnutmountain.com/DNOW_Session_1+-1.mov',
+                 'provider': 'video'
+                }
+              }
+          ]
+        });
       });
     });
   </script>
