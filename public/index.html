@@ -45,7 +45,7 @@
     <section class="replay-content">
       <div class="row">
         <div class="span3">
-          <a href="#"><img class="replay" alt="Watch Replay of Session One" src="/images/replay1.png" /></a>
+          <a href="/sessions/one"><img class="replay" alt="Watch Replay of Session One" src="/images/replay1.png" /></a>
         </div>
         <div class="span3">
           <img alt="Watch Replay of Session Two" src="/images/replay2coming.png" />
@@ -119,30 +119,6 @@
             $this.fadeTo('slow', 0);
             break;
         }
-      });
-    });
-  </script>
-  <script type="text/javascript">
-    $(function() {
-      $('div#watch1').click(function(e) {
-        jwplayer('mediaplayer').setup({
-          'id': 'playerID',
-          'autostart': 'true',
-          'width': '640',
-          'height': '480',
-          'file': 'https://s3.amazonaws.com/streaming.chestnutmountain.com/session1.m4v',
-          'controlbar': 'bottom',
-          'modes': [
-              {type: 'flash', src: '/jwplayer/player.swf'},
-              {
-                type: 'html5',
-                config: {
-                 'file': 'https://s3.amazonaws.com/streaming.chestnutmountain.com/session1.m4v',
-                 'provider': 'video'
-                }
-              }
-          ]
-        });
       });
     });
   </script>
