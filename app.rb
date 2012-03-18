@@ -7,10 +7,6 @@ configure do
 end
 
 get '/' do
-  File.read(File.join('public', 'index-offline.html'))
-end
-
-get '/test' do
   File.read(File.join('public', 'index.html'))
 end
 
