@@ -23,13 +23,11 @@ get '/sessions/two' do
 end
 
 get '/sessions/three' do
-  #File.read(File.join('public', 'three.html'))
-  'This session is not available yet, hang tight!'
+  File.read(File.join('public', 'three.html'))
 end
 
 get '/sessions/four' do
-  #File.read(File.join('public', 'four.html'))
-  'This session is not available yet, hang tight!'
+  File.read(File.join('public', 'four.html'))
 end
 
 not_found do
