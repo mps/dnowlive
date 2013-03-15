@@ -37,20 +37,20 @@ section.replay-content{
 }
 
 div#clock{
-  margin-top: 5px;
-  background: #000;
+  margin-top:20px;
   height:75px;
 }
 
 div.clock-content{
   padding:10px;
-  color:#fff;
+  color:#000;
+  font-size: 30px;
 }
 
 div.clock-content span{
   margin-left:30px;
   margin-right:30px;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   vertical-align:middle;
 }

@@ -21,11 +21,10 @@
         <div class="span9">
           <div id="clock">
             <div class="clock-content">
-              <img alt="Live in..." class="live" src="/images/liveindicator.png" />
-              <span id="daysLeft"></span><img alt="Days left" src="/images/days.png" />
-              <span id="hours"></span><img alt="Hours left" src="/images/hours.png" />
-              <span id="minutes"></span><img alt="Minutes left" src="/images/mins.png" />
-              <span id="seconds"></span><img alt="Seconds left" src="/images/seconds.png" />
+              LIVE IN
+              <span id="hours"></span>HR
+              <span id="minutes"></span>MIN
+              <span id="seconds"></span>SEC
             </div>
           </div>
         </div>
@@ -107,10 +106,6 @@
             break;
           case "hours":
             $this.find('span#'+event.type).html(timeLeft[1]);
-            break;
-          case "days":
-          case "daysLeft":
-            $this.find('span#'+event.type).html(timeLeft[0]);
             break;
           case "finished":
             $this.fadeTo('slow', 0);
