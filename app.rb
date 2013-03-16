@@ -6,11 +6,11 @@ configure do
   
 end
 
-get '/test' do
+get '/' do
   File.read(File.join('public', 'index-offline.html'))
 end
 
-get '/' do
+get '/test' do
   File.read(File.join('public', 'index.html'))
 end
 
