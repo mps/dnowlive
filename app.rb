@@ -6,17 +6,17 @@ configure do
   
 end
 
-get '/' do
+get '/test' do
   File.read(File.join('public', 'index-offline.html'))
 end
 
-get '/test' do
+get '/' do
   File.read(File.join('public', 'index.html'))
 end
 
-# get '/sessions/one' do
-#   File.read(File.join('public', 'one.html'))
-# end
+get '/sessions/one' do
+  File.read(File.join('public', 'one.html'))
+end
 
 # get '/sessions/two' do
 #   File.read(File.join('public', 'two.html'))
