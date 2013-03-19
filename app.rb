@@ -19,8 +19,7 @@ get '/sessions/two' do
 end
 
 get '/sessions/three' do
-  #File.read(File.join('public', 'three.html'))
-  'Coming soon, stay tuned! :)'
+  File.read(File.join('public', 'three.html'))
 end
 
 not_found do
